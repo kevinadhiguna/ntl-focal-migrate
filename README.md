@@ -6,6 +6,18 @@ This is a small CLI to allow you to migrate all your sites to the Focal build im
 
 This CLI makes multiple requests to the Netlify API, so it can take a few seconds to complete. Please be patient!
 
+### Prerequisite:
+
+Get [netlify-cli](https://docs.netlify.com/cli/get-started/) installed in your machine before listing or updating sites :
+
+```bash
+npm install netlify-cli -g
+```
+or
+```bash
+yarn global add netlify-cli
+```
+
 ### First, check which sites are not running the Focal image on your account:
 
 ```bash
